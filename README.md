@@ -5,7 +5,7 @@
 ##### Nmap Automator. Save time on port/vuln scans:
 https://github.com/21y4d/nmapAutomator
 
-##### PWNCAT - Unbreakable Persistent Reverse Shell
+##### PWNCAT - Unbreakable Persistent Reverse Shell (Also IDS/Firewall Evasion :)
 https://github.com/cytopia/pwncat
 
 
